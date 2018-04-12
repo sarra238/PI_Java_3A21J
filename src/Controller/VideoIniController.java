@@ -54,8 +54,8 @@ public class VideoIniController implements Initializable {
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        //String VRul= "file:/C:/Users/lv/Desktop/video/bb.mp4";
-        String VRul= "file:/C:/Users/Win10/Desktop/video/bb.mp4";
+       String VRul= "file:/C:/Users/lv/Desktop/video/bb.mp4";
+        //String VRul= "file:/C:/Users/Win10/Desktop/video/bb.mp4";
         //String VRul= "file:/C:/Users/maryem/Desktop/S/video/bb.mp4";
         Media media = new Media (VRul);
         mediaplayer = new MediaPlayer(media);
